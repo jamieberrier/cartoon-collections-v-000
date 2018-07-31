@@ -17,12 +17,12 @@ end
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
 
-    #calls.include?(calls.length >= 4)
+  calls.include?(characters.length >= 4)
 
 end
 
 def find_the_cheese(strings)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
+
 end
