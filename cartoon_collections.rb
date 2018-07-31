@@ -25,7 +25,7 @@ def long_planeteer_calls(calls)# code an argument here
     
   end
 
-  
+
   #   if calls.include?()
   #     true
   #   else
