@@ -16,7 +16,13 @@ end
 #The method should tell us if any of the calls are longer than four characters.
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-  calls.select {|call| call.length > 4}
+  long_calls = calls.select {|call| call.length > 4}
+
+  if long_calls.empty?
+    false
+  else
+    true
+  end
 
 end
 
