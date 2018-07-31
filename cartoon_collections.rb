@@ -15,13 +15,23 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-  # while condition
+
+  calls.each_with_index do |name, index|
+    if name.length >= 4
+      true
+    else
+      false
+    end
+    
+  end
+
+  
   #   if calls.include?()
   #     true
   #   else
   #     false
   #   end
-  #end
+
 
 end
 
