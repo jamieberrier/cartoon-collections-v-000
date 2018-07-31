@@ -16,8 +16,8 @@ end
 #The method should tell us if any of the calls are longer than four characters.
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-
-  calls.include?(calls.length >= 4)
+  calls_string = calls.to_s
+  calls.include?(calls_string.length >= 4)
 
 end
 
