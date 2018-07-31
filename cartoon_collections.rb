@@ -15,6 +15,14 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
+  # while condition
+  #   if condition
+  #     true
+  #   else
+  #     false
+  #   end
+  end
+
 end
 
 def find_the_cheese# code an argument here
